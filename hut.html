@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js"></script>
+    <title>THE GLASS HUTS</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header_cover">
+            <div class="logo"></div>
+            <div class="navigation_header_book_cover">
+            <div class="navigation_header">
+                <div class="havigation_header_button">
+                    <a href="index.html" class="home_button">Home</a>
+                    <a href="hut.html" class="the_hut_button">the hut</a>
+                    <a href="thearea.html" class="the_area_button">The area</a>
+                    <a href="booking.html" class="booking_button">booking</a>
+                    <a href="aboutus.html" class="about_us_button">about us</a>
+                    <a href="faq.html" class="faq_button">faq</a>
+                </div>
+                <div class="lang_header_button"></div>
+            </div>
+            <form id="form_book_button">
+                <input id="book_button" type="button" value="Book Now">
+            </form>
+        </div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="hut_page_image_container ">
+            <div class="booking_background_image">
+                <div class="booking_background_image_text_container">
+                    <h1>The Hut</h1>
+                </div>
+            </div>
+        </div>
+       <div class="hut_container">
+    <div class="outside_container">
+        <div class="hut_slider">
+            <div class="hut_slider_image outside_image"></div>
+            <div class="hut_navigation_button">
+                <div class="left_right_button">
+                    <button class="left_button"><img src="/assets/back copy 2 (2).svg"></button>
+                    <button class="right_button"><img src="/assets/back copy 2 (2).svg"></button>
+                </div>
+                <div class="number_navigation">
+                    <p>01</p>
+                    <input type="range" min="1" max="5" step="1" value="1" class="slider_range" id="slider_range_1">
+                    <p>05</p>
+                </div>
+            </div>
+        </div>
+        <div class="hut_text_content">
+            <h3>The Outside</h3>
+            <div class="text_slider" id="text_slider_1">
+                <button class="buttonactive" onclick="textslider(this)" id="hotbutton">Hot tube</button>
+                <button onclick="textslider(this)" id="electricbutton">Electric car change</button>
+            </div>
+            <p class="hut_transcription hotbutton active" id="hut_outside_1">Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are designed by architect Sigurd Larsen. They all have an open space with a double bed, a double sofa bed, kitchen, separate toilet and an outdoor shower. On the roof, surrounded by treetops, there is a terrace, which is about nine meters above ground. </p>
+            <p class="hut_transcription electricbutton" id="hut_outside_2">Electric car change</p>
+        </div>
+    </div> 
+    <div class="inside_container">
+        <div class="hut_text_content">
+            <h3>The Inside</h3>
+            <div class="text_slider" id="text_slider_2">
+                <button class="buttonactive" onclick="textslider(this)" id="spacebutton">Space</button>
+                <button onclick="textslider(this)" id="kitchenbutton">Kitchen</button>
+                <button onclick="textslider(this)" id="bathroombutton">Bathroom</button>
+            </div>
+            <p class="hut_transcription spacebutton active" id="Space">Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are designed by architect Sigurd Larsen. They all have an open space with a double bed, a double sofa bed, kitchen, separate toilet and an outdoor shower. On the roof, surrounded by treetops, there is a terrace, which is about nine meters above ground. The cottages are built around tall, old trees that go through the entire cottage from floor to ceiling.</p>
+            <p class="hut_transcription kitchenbutton" id="Kitchen">Kitchen</p>
+            <p class="hut_transcription bathroombutton" id="Bathroom">Bathroom</p>
+        </div>
+        <div class="hut_slider">
+            <div class="hut_slider_image inside_image"></div>
+            <div class="hut_navigation_button">
+                <div class="left_right_button">
+                    <button class="left_button" onclick="hutslider(this)"><img src="/assets/back copy 2 (2).svg"></button>
+                    <button class="right_button" onclick="hutslider(this)"><img src="/assets/back copy 2 (2).svg"></button>
+                </div>
+                <div class="number_navigation">
+                    <p>01</p>
+                    <input type="range" min="1" max="5" step="1" value="1" class="slider_range" id="slider_range_2">
+                    <p>05</p>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <div class="practicalities_container">
+        <div class="hut_slider">
+            <div class="hut_slider_image practicalities_image"></div>
+            <div class="hut_navigation_button">
+                <div class="left_right_button">
+                    <button class="left_button"><img src="/assets/back copy 2 (2).svg"></button>
+                    <button class="right_button"><img src="/assets/back copy 2 (2).svg"></button>
+                </div>
+                <div class="number_navigation">
+                    <p>01</p>
+                    <input type="range" min="1" max="5" step="1" value="1" class="slider_range" id="slider_range_3">
+                    <p>05</p>
+                </div>
+            </div>
+        </div>
+        <div class="hut_text_content">
+            <h3>Practicalities</h3>
+            <div class="text_slider" id="text_slider_3">
+                <button class="buttonactive" onclick="textslider(this)" id="breakfastbutton">Breakfast</button>
+                <button onclick="textslider(this)" id="dinnerbutton">Classic Dinner</button>
+            </div>
+            <p class="hut_transcription breakfastbutton active">Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are designed by architect Sigurd Larsen. They all have an open space with a double bed, a double sofa bed, kitchen, separate toilet and an outdoor shower. On the roof, surrounded by treetops, there is a terrace, which is about nine meters above ground. </p>
+            <p class="hut_transcription dinnerbutton">Classic Dinner</p>
+        </div>
+    </div> 
+
+       </div>
+            
+            
+        </div>
+    
+    <div class="footer">
+        <div class="footer_content_container">
+            <div class="newsleter_container">
+                <h1>Newsletter</h1>
+                <form id="email_adress_form">
+                    <input id="email_adress_input" type="email" value="Email Adrdess">
+                    <input id="email_adress_button" type="submit" action="" value="">
+                    <p>Sign up to our newsletter for special things and receive 10% off your next order.</p>
+                </form>
+                <div class="copyright">© 2021 The Glass Huts</div>
+            </div>
+            <div class="privacy_container">
+                <div class="privacy_footer_navigation">
+                    <a href="" class="terms_button">TERMS AND CONDITIONS</a>
+                    <a href="" class="cencellation_button">CENCELLATION POLICY</a>
+                    <a href="" class="privacy_button">PRIVACY POLICY</a>
+                </div>
+                <div class="payment_system">
+                    <div class="paypal"></div>
+                    <div class="mastercard"></div>
+                    <div class="visa"></div>
+                    <div class="banktransfer"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/hutscript.js"></script>
+</body>
+</html>

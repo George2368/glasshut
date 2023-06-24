@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js"></script>
+    <title>THE GLASS HUTS</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header_cover">
+            <div class="logo"></div>
+            <div class="navigation_header_book_cover">
+            <div class="navigation_header">
+                <div class="havigation_header_button">
+                    <a href="index.html" class="home_button">Home</a>
+                    <a href="hut.html" class="the_hut_button">the hut</a>
+                    <a href="thearea.html" class="the_area_button">The area</a>
+                    <a href="booking.html" class="booking_button">booking</a>
+                    <a href="aboutus.html" class="about_us_button">about us</a>
+                    <a href="faq.html" class="faq_button">faq</a>
+                </div>
+                <div class="lang_header_button"></div>
+            </div>
+            <form id="form_book_button">
+                <input id="book_button" type="button" value="Book Now">
+            </form>
+        </div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="booking_page_image_container">
+            <div class="booking_background_image">
+                <div class="booking_background_image_text_container">
+                    <h1>Booking</h1>
+                    <div class="place_container">
+                        <div class="marker_logo"></div>
+                        <p>Vesterborg, Denmark</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ordering_glass_huts">
+            <div class="aditional_option_container">
+
+                <div class="optional_container">
+                    <h1>Choose Additional Services</h1>
+                    <div class="option_container">
+                        <div class="fresh_breakfast_for_one_container">
+                            <div class="optional_container_group">
+                                <button type="submit" id="add_number_1" class="add_aditional_option_button" onclick="addOptionFunction(this)">
+                                    <img src="assets/Group 173.svg">
+                                </button>
+                                <div class="text_about_optional_container">
+                                    <h3>Fresh Breakfast for one</h3>
+                                    <p>400kr</p>
+                                </div>
+                            </div>
+                           
+    
+                            <button type="button" class="dropdown_fresh_breakfast_for_one"  id="dropdownbuttonfirst" onclick="myFunction(this)">
+                                <img src="/assets/Path.svg">
+                            </button>
+                            
+                        </div>
+                        <div class="dropdown_content" id="dropdownElementContent">
+                            <h4>Fresh Breakfast for one</h4>
+                            <p>Bread, Coffee, milk, juice, and a selection of spreads + toppings.</p>
+                        </div>
+                    </div>
+                    <div class="option_container">
+                        <div class="fresh_breakfast_for_one_container">
+                            <div class="optional_container_group">
+                                <button type="submit" id="add_number_2" class="add_aditional_option_button" onclick="addOptionFunction(this)">
+                                    <img src="assets/Group 173.svg">
+                                </button>
+                                <div class="text_about_optional_container">
+                                    <h3>Fresh Breakfast for two</h3>
+                                    <p>500kr</p>
+                                </div>
+                            </div>
+                           
+    
+                            <button type="button" class="dropdown_fresh_breakfast_for_one"  id="dropdownbuttonsecond" onclick="myFunction(this)">
+                                <img src="/assets/Path.svg">
+                            </button>
+                           
+                            
+                        </div>
+                        <div class="dropdown_content" id="dropdownContent">
+                            <h4>Fresh Breakfast for two</h4>
+                            <p>Bread, Coffee, milk, juice, and a selection of spreads + toppings.</p>
+                        </div>
+                    </div>
+                    <div class="option_container">
+                        <div class="fresh_breakfast_for_one_container">
+                            <div class="optional_container_group">
+                                <button type="submit" id="add_number_3" class="add_aditional_option_button" onclick="addOptionFunction(this)">
+                                    <img src="assets/Group 173.svg">
+                                </button>
+                                <div class="text_about_optional_container">
+                                    <h3>Classic Dinner for one</h3>
+                                    <p>600kr</p>
+                                </div>
+                            </div>
+                           
+    
+                            <button type="button" class="dropdown_fresh_breakfast_for_one"  id="dropdownbuttonthird" onclick="myFunction(this)">
+                                <img src="/assets/Path.svg">
+                            </button>
+                            
+                        </div>
+                        <div class="dropdown_content">
+                            <h4>Classic Dinner</h4>
+                            <p>Bread, Coffee, milk, juice, and a selection of spreads + toppings.</p>
+                        </div>
+                    </div>
+
+                    <div class="option_container">
+                        <div class="fresh_breakfast_for_one_container">
+                            <div class="optional_container_group">
+                                <button type="submit" id="add_number_4" class="add_aditional_option_button" onclick="addOptionFunction(this)">
+                                    <img src="assets/Group 173.svg">
+                                </button>
+                                <div class="text_about_optional_container">
+                                    <h3>Classic Dinner for two</h3>
+                                    <p>800kr</p>
+                                </div>
+                            </div>
+                           
+    
+                            <button type="button" class="dropdown_fresh_breakfast_for_one"  id="dropdownbuttonfourth" onclick="myFunction(this)">
+                                <img src="/assets/Path.svg">
+                            </button>
+                            
+                        </div>
+                        <div class="dropdown_content">
+                            <h4>Classic Dinner</h4>
+                            <p>Bread, Coffee, milk, juice, and a selection of spreads + toppings.</p>
+                        </div>
+                    </div>
+                    <div class="option_container">
+                        <div class="fresh_breakfast_for_one_container">
+                            <div class="optional_container_group">
+                                <button type="submit" id="add_number_5" class="add_aditional_option_button" onclick="addOptionFunction(this)">
+                                    <img src="assets/Group 173.svg">
+                                </button>
+                                <div class="text_about_optional_container">
+                                    <h3>Electric Car Charge</h3>
+                                    <p>800kr</p>
+                                </div>
+                            </div>
+                           
+    
+                            <button type="button" class="dropdown_fresh_breakfast_for_one"  id="dropdownbuttonfiveth" onclick="myFunction(this)">
+                                <img src="/assets/Path.svg">
+                            </button>
+                            
+                        </div>
+                        <div class="dropdown_content">
+                            <h4>Electric Car Charge</h4>
+                            <p>Bread, Coffee, milk, juice, and a selection of spreads + toppings.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="hut_rullers_cancellation_information_container">
+                    <div class="hut_rullers_container">
+                        <h2>Hut rules</h2>
+                        <ul class="hut_rullers_li">
+                            <li style="margin-top: 44px;">Check-in:  2:00 PM - 11:00 PM</li>
+                            <li>Checkout: 11:00 AM</li>
+                            <li>Not suitable for children and infants</li>
+                            <li>No smoking</li>
+                            <li>No pets</li>
+                        </ul>
+                    </div>
+                    <div class="cancellation_policy_container">
+                        <h2>Cancellation policy</h2>
+                        <ul class="cancellation_rullers_li">
+                            <li style="margin-top: 44px;">Free cancellation until 1:00 PM on Mar 27</li>
+                            <li>After that, cancel before 2:00 PM on Apr 1 and get a 50% refund, minus the first night and service fee.</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="important_information_container">
+                        <h2>Important Information</h2>
+                        <p>You need to hike a steep hill to arrive at the treehouses, it takes approx 20-30 minutes on a trail with stairs and uneven ground.</p>
+                    </div>
+                   
+                                </div> <div class="read_faq_button_container">
+                                    <button onclick="document.location='/faq.html'" class="read_faq_button">read FAQ</button>
+                                    </div>
+            </div>
+
+            <div class="check_container" id="checkcontainer">
+                <div class="check">
+                    <div class="final_price_check">
+                        <h2>3.200kr <span>/ night</span></h2>
+                    
+                    </div>
+                    <div class="price_check_container">
+                        
+                           
+                                <div class="element_price_container">
+                               
+                                <div class="head_calendar_price_container">
+                                    <form class="head_calendar_form_container head_calendar_price_form_container">
+                                        <div class="data_container">
+                                            <div class="check_in_block_input_price_container">
+                                                <p>Check in</p>
+                                                <input type="data" class="check_in_block_input">
+                                            </div>
+                                            <div class="check_out_block_input_price_container">
+                                                <p>Check out</p>
+                                                <input type="data" class="check_out_block_input">
+                                            </div>
+                                            <div class="check_guets_block">
+                                                <p>Guests</p>
+                                                <input type="number" class="check_guets_block_input">
+                                            </div>
+                                        </div>
+                                        <div class="input_book_data_button"><input type="submit" class="book_data_button book_data_price_button" value="BOOK"></div>                          
+                                    </form>
+                                </div>
+                                </div>
+                                <div class="price_position_total_price_container">
+                                    <div class="price_position_container" id="pricepositioncontainer" >
+                                       
+                                        <div class="price_position_container_element" id="pricepositioncontainerelement">
+
+                                        </div>
+                                    </div>
+                                        <div class="total_price_position_container">
+                                            <h2>Total</h2>
+                                            <h2><span>7.000</span>kr</h2>
+                                        </div>
+                                    <div class="coupon_container">
+                                        <form>
+                                            <input type="text" class="coupon_input" placeholder="Coupon Code">
+                                            <input type="submit" class="coupon_button" value="Apply">
+                                        </form>
+                                    </div>
+                                    </div>
+                          
+                           </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    
+    <div class="footer">
+        <div class="footer_content_container">
+            <div class="newsleter_container">
+                <h1>Newsletter</h1>
+                <form id="email_adress_form">
+                    <input id="email_adress_input" type="email" value="Email Adrdess">
+                    <input id="email_adress_button" type="submit" action="" value="">
+                    <p>Sign up to our newsletter for special things and receive 10% off your next order.</p>
+                </form>
+                <div class="copyright">© 2021 The Glass Huts</div>
+            </div>
+            <div class="privacy_container">
+                <div class="privacy_footer_navigation">
+                    <a href="" class="terms_button">TERMS AND CONDITIONS</a>
+                    <a href="" class="cencellation_button">CENCELLATION POLICY</a>
+                    <a href="" class="privacy_button">PRIVACY POLICY</a>
+                </div>
+                <div class="payment_system">
+                    <div class="paypal"></div>
+                    <div class="mastercard"></div>
+                    <div class="visa"></div>
+                    <div class="banktransfer"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/jsvar.js"></script>
+</body>
+</html>
